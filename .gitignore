@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+fig1_crossing.pdf
+analysis/results.json

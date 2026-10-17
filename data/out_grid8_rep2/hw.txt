@@ -1,0 +1,5 @@
+CPU(s):                                  128
+Model name:                              AMD EPYC 9575F 64-Core Processor
+8
+16000000000
+overlay         100G  105M  100G   1% /

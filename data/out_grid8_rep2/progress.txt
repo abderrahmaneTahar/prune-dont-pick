@@ -1,0 +1,9 @@
+20:08 bg1_slow36_wb32MB overwrite    :      32.582 micros/op 122763 ops/sec 1800.085 seconds 220983996 operations;   49.2 MB/s
+20:38 bg4_slow8_wb32MB overwrite    :      21.101 micros/op 189565 ops/sec 1800.091 seconds 341235996 operations;   75.9 MB/s
+21:08 bg4_slow8_wb256MB overwrite    :      22.102 micros/op 180978 ops/sec 1800.129 seconds 325783996 operations;   72.5 MB/s
+21:38 bg4_slow36_wb256MB overwrite    :      30.150 micros/op 132669 ops/sec 1800.004 seconds 238804996 operations;   53.1 MB/s
+22:08 bg1_slow8_wb32MB overwrite    :      41.503 micros/op 96377 ops/sec 1800.068 seconds 173485996 operations;   38.6 MB/s
+22:38 bg1_slow8_wb256MB overwrite    :      32.787 micros/op 121998 ops/sec 1800.007 seconds 219597996 operations;   48.9 MB/s
+23:08 bg1_slow36_wb256MB overwrite    :      27.902 micros/op 143355 ops/sec 1800.076 seconds 258050996 operations;   57.4 MB/s
+23:38 bg4_slow36_wb32MB overwrite    :      30.529 micros/op 131007 ops/sec 1800.506 seconds 235878996 operations;   52.5 MB/s
+ALLDONE

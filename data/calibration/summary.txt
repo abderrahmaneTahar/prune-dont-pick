@@ -1,0 +1,7 @@
+bg1_slow36_wb32_T4 overwrite    :      16.473 micros/op 242819 ops/sec 180.006 seconds 43708996 operations;   97.3 MB/s | Cumulative stall: 00:01:7.021 H:M:S, 37.2 percent
+bg1_slow36_wb32_T8 overwrite    :      34.192 micros/op 233967 ops/sec 180.012 seconds 42116992 operations;   93.7 MB/s | Cumulative stall: 00:01:0.743 H:M:S, 33.7 percent
+bg1_slow36_wb32_T16 overwrite    :      80.745 micros/op 198141 ops/sec 180.032 seconds 35671984 operations;   79.4 MB/s | Cumulative stall: 00:00:21.833 H:M:S, 12.1 percent
+bg4_slow36_wb32_T4 overwrite    :      10.361 micros/op 386054 ops/sec 180.003 seconds 69490996 operations;  154.6 MB/s | Cumulative stall: 00:00:0.260 H:M:S, 0.1 percent
+bg4_slow36_wb32_T8 overwrite    :      26.210 micros/op 305215 ops/sec 180.014 seconds 54942992 operations;  122.3 MB/s | Cumulative stall: 00:00:0.034 H:M:S, 0.0 percent
+bg4_slow36_wb32_T16 overwrite    :      77.611 micros/op 206140 ops/sec 180.037 seconds 37112984 operations;   82.6 MB/s | Cumulative stall: 00:00:2.392 H:M:S, 1.3 percent
+ALLDONE

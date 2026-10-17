@@ -1,0 +1,5 @@
+CPU(s):                               48
+Model name:                           AMD Ryzen Threadripper 7960X 24-Cores
+8
+16000000000
+overlay         100G  105M  100G   1% /

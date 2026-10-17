@@ -1,0 +1,13 @@
+20:08 bg1_slow28_wb212MB overwrite    :      40.350 micros/op 99132 ops/sec 1800.067 seconds 178445996 operations;   39.7 MB/s
+20:38 bg4_slow30_wb73MB overwrite    :      34.125 micros/op 117217 ops/sec 1800.004 seconds 210991996 operations;   47.0 MB/s
+21:08 bg4_slow20_wb41MB overwrite    :      35.180 micros/op 113701 ops/sec 1800.103 seconds 204673996 operations;   45.5 MB/s
+21:38 bg1_slow22_wb168MB overwrite    :      38.175 micros/op 104780 ops/sec 1800.187 seconds 188623996 operations;   42.0 MB/s
+22:08 bg2_slow15_wb196MB overwrite    :      40.072 micros/op 99820 ops/sec 1800.007 seconds 179677996 operations;   40.0 MB/s
+22:38 bg1_slow35_wb67MB overwrite    :      42.619 micros/op 93853 ops/sec 1800.304 seconds 168964996 operations;   37.6 MB/s
+23:08 bg2_slow10_wb32MB overwrite    :      60.572 micros/op 66036 ops/sec 1800.100 seconds 118871996 operations;   26.5 MB/s
+23:38 bg4_slow22_wb26MB overwrite    :      39.027 micros/op 102491 ops/sec 1800.181 seconds 184503996 operations;   41.1 MB/s
+00:08 bg2_slow6_wb115MB overwrite    :      57.677 micros/op 69351 ops/sec 1800.114 seconds 124839996 operations;   27.8 MB/s
+00:38 bg3_slow11_wb203MB overwrite    :      43.847 micros/op 91225 ops/sec 1800.019 seconds 164206996 operations;   36.5 MB/s
+01:08 bg4_slow24_wb25MB overwrite    :      40.282 micros/op 99298 ops/sec 1800.109 seconds 178748996 operations;   39.8 MB/s
+01:38 bg4_slow20_wb30MB overwrite    :      39.291 micros/op 101802 ops/sec 1801.542 seconds 183401996 operations;   40.8 MB/s
+ALLDONE

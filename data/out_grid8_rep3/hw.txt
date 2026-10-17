@@ -1,0 +1,5 @@
+CPU(s):                                  32
+Model name:                              AMD EPYC 4564P 16-Core Processor
+8
+16000000000
+overlay         100G  105M  100G   1% /
