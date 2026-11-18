@@ -49,6 +49,24 @@ json.dump({w: {r: {k: v for k, v in p.items()} for r, p in res.items()} for w, r
 
 
 # ---------------------------------------------------------------- two-hour runs
+
+def screen_long(sc, nseg=23, seg=30):
+    """Screening variant (analyze.screening) for runs of nseg*seg samples."""
+    n, T = len(sc), nseg * seg * 10; cost, done = 60 * n, {}
+    for c in sorted(sc, key=lambda c: -sc[c]["S60"]):
+        a, inc = sc[c]["series"], (max(done.values()) if done else None)
+        if inc is not None and sc[c]["S60"] < inc:
+            continue
+        stopped = False
+        for k in range(1, nseg):
+            if inc is not None and a[:seg * k].mean() < inc:
+                cost, stopped = cost + seg * 10 * k, True
+                break
+        if not stopped:
+            cost += T; done[c] = sc[c]["full"]
+    best = max(sc, key=lambda c: sc[c]["full"]); pick = max(done, key=done.get)
+    return {"time_saved": 1 - cost / (T * n), "loss": 1 - sc[pick]["full"] / sc[best]["full"], "full_runs": len(done)}
+
 N = 719
 out = {}  # two-hour runs (overwrite, 7200 s): truth = 7200 s mean over the 719 samples common to all configs
 for r in (1, 2):
@@ -67,6 +85,7 @@ for r in (1, 2):
          "CONS": A.replay(curves, "CONS", np.random.default_rng(0), seg=30, nseg=23),
          "CONS60": A.replay(curves, "CONS", np.random.default_rng(0), seg=6, nseg=119),
          "UNC": A.replay(curves, "UNC", np.random.default_rng(0), seg=30, nseg=23),
+         "screen": screen_long(sc),
          "minRA5": min(sc[c]["series"][:30 * k].mean() / sc[c]["full"] for c in cs for k in range(1, 24)),
          "minRA1": min(sc[c]["series"][:6 * k].mean() / sc[c]["full"] for c in cs for k in range(1, 119)),
          "drop_30_to_2h": [min(1 - sc[c]["full"] / sc[c]["m30"] for c in cs), max(1 - sc[c]["full"] / sc[c]["m30"] for c in cs)],
@@ -76,6 +95,7 @@ for r in (1, 2):
     print(f"== long run {r}: best 2h {best}, best 30min {top30} -> C7 {'PASS' if p['C7'] else 'FAIL'}; loss picking by 30 min {pct(p['loss_pick_by_30min'])}; tau(30min,2h) {p['tau_30min_2h']:.2f}")
     print(f"   S60 loss {pct(p['S60']['loss'])} rank {p['S60']['rank_of_best']} | S300 loss {pct(p['S300']['loss'])} rank {p['S300']['rank_of_best']}")
     print(f"   CONS stop {pct(p['CONS']['p_best_stopped'])} saved {pct(p['CONS']['time_saved'])} | CONS60 stop {pct(p['CONS60']['p_best_stopped'])} saved {pct(p['CONS60']['time_saved'])} | UNC stop {pct(p['UNC']['p_best_stopped'])} loss {100*p['UNC']['loss']:.1f}% saved {pct(p['UNC']['time_saved'])}")
+    print(f"   screen saved {pct(p['screen']['time_saved'])} loss {pct(p['screen']['loss'])} full runs {p['screen']['full_runs']}")
     print(f"   minRA5 {p['minRA5']:.3f} minRA1 {p['minRA1']:.3f}; drop 30min->2h {pct(p['drop_30_to_2h'][0])}-{pct(p['drop_30_to_2h'][1])}")
     for c, v in sorted(p["table"].items(), key=lambda kv: -kv[1][2]): print(f"     {c:20s} S60 {v[0]:4d}k 30min {v[1]:4d}k 2h {v[2]:4d}k stall {v[3]:.0f}%")
 json.dump(out, open(os.path.join(HERE, "revision_long_results.json"), "w"), indent=1, default=float)
