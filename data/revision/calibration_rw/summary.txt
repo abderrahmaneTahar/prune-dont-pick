@@ -1,0 +1,9 @@
+rw50_t16_bg1_s36_wb256 readrandomwriterandom :      60.795 micros/op 263141 ops/sec 180.071 seconds 47383984 operations; ( reads:1481000 writes:1480999 total:180000000 found:971510) | Cumulative stall: 00:00:0.131 H:M:S, 0.1 percent
+rw50_t16_bg4_s8_wb32 readrandomwriterandom :      76.196 micros/op 209955 ops/sec 180.053 seconds 37802984 operations; ( reads:1182000 writes:1181999 total:180000000 found:769574) | Cumulative stall: 00:00:19.875 H:M:S, 11.0 percent
+rw50_t32_bg1_s36_wb256 readrandomwriterandom :     120.151 micros/op 266276 ops/sec 180.091 seconds 47953968 operations; ( reads:749000 writes:748999 total:180000000 found:490491) | Cumulative stall: 00:00:0.138 H:M:S, 0.1 percent
+rw50_t32_bg4_s8_wb32 readrandomwriterandom :     149.611 micros/op 213852 ops/sec 180.092 seconds 38512968 operations; ( reads:602000 writes:601999 total:180000000 found:391727) | Cumulative stall: 00:00:21.315 H:M:S, 11.8 percent
+rw90_t16_bg1_s36_wb256 readrandomwriterandom :      67.249 micros/op 237882 ops/sec 180.072 seconds 42835984 operations; ( reads:2406600 writes:267399 total:180000000 found:1531947) | Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+rw90_t16_bg4_s8_wb32 readrandomwriterandom :      76.477 micros/op 209167 ops/sec 180.071 seconds 37664984 operations; ( reads:2117700 writes:235299 total:180000000 found:1347083) | Cumulative stall: 00:00:53.636 H:M:S, 29.8 percent
+rw90_t32_bg1_s36_wb256 readrandomwriterandom :      90.548 micros/op 353325 ops/sec 180.089 seconds 63629968 operations; ( reads:1790100 writes:198899 total:180000000 found:1141901) | Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+rw90_t32_bg4_s8_wb32 readrandomwriterandom :     113.501 micros/op 281868 ops/sec 180.095 seconds 50762968 operations; ( reads:1426500 writes:158499 total:180000000 found:909288) | Cumulative stall: 00:01:1.790 H:M:S, 34.3 percent
+CALIBDONE

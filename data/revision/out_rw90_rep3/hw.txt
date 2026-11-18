@@ -1,0 +1,12 @@
+CPU(s):                                  128
+Model name:                              AMD EPYC 9575F 64-Core Processor
+8
+16000000000
+overlay         100G  109M  100G   1% /
+NAME    ROTA MODEL                                      SIZE
+nvme0n1    0 CT1000E100SSD8                           931.5G
+nvme2n1    0 CT4000T700SSD5                             3.6T
+nvme1n1    0 CT4000T700SSD5                             3.6T
+/      overlay overlay rw,relatime,lowerdir=/var/lib/docker/overlay2/l/AX52W2ZLYMQQ7DYRMADSXKQU73:/var/lib/docker/overlay2/l/UOOWMDO5RKHW4ELOVJMBQOSDXV:/var/lib/docker/overlay2/l/OZ52SBR3ZGP6TKM3VDKKOVCBCM:/var/lib/docker/overlay2/l/QNEALBB5TDQCSNLKXYG23YY3Y6:/var/lib/docker/overlay2/l/OO4KDGHHPZMO54CCWYP6BJWZFG:/var/lib/docker/overlay2/l/MDCYSJH367DCO7HSW2ZEO7SSMG:/var/lib/docker/overlay2/l/FO6FMVIQYPYZU7WG3SRJ7AS3JD:/var/lib/docker/overlay2/l/ZSHLHEBHX66ZEBEOUWPJ6OJTE5:/var/lib/docker/overlay2/l/UNUEV6UT5TCXVWB4JBSADAM5LW:/var/lib/docker/overlay2/l/SGJFXVSMU23RVKDTMTSBQ2CIDG:/var/lib/docker/overlay2/l/X5UKFBPL5U3UJEAEB56YDK5L55:/var/lib/docker/overlay2/l/GLCUI7E6QTWYHOKUUM7NFCT4IY:/var/lib/docker/overlay2/l/ZIHBVCM33RQG26O6ZV5HMTUGNT:/var/lib/docker/overlay2/l/PARFNY5HTIWNB4HP5T7ABGC3X2:/var/lib/docker/overlay2/l/OKVC2XTB2TTXV5OYTPTZKQL7SO:/var/lib/docker/overlay2/l/7AUR3T7JDGYZMKPEUQBOIIGM7R:/var/lib/docker/overlay2/l/W2IF5EVA6DV6Y45DWJJTX36WK3:/var/lib/docker/overlay2/l/P2FHU2XLMYNNYXYX4JIYKJAFAZ:/var/lib/docker/overlay2/l/OYZ6FXDGNCLIEHBEPRTFK3LF7X:/var/lib/docker/overlay2/l/5XOQPPG26RAAAUE6UT6JO7WCAF:/var/lib/docker/overlay2/l/ZFHHJ7U6WN35PLNH7LCC63O4AU:/var/lib/docker/overlay2/l/UWYYXD4TSWZBRPUVNKLNWZOO63:/var/lib/docker/overlay2/l/PEFWBT3HK3YE4VOKHB7XRBLGU3,upperdir=/var/lib/docker/overlay2/0aa7a4cb425619dedd0764361c1ca88bd78a4699e7cfe26fa2db0de69a476400/diff,workdir=/var/lib/docker/overlay2/0aa7a4cb425619dedd0764361c1ca88bd78a4699e7cfe26fa2db0de69a476400/work,nouserxattr
+653bdc49-23c6-47ac-adbf-0532767ff660
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 1.17454 s, 914 MB/s

@@ -1,0 +1,12 @@
+CPU(s):                                  128
+Model name:                              AMD EPYC 9575F 64-Core Processor
+8
+16000000000
+overlay         120G  109M  120G   1% /
+NAME    ROTA MODEL                                      SIZE
+nvme1n1    0 MSI M571 DLP 4TB                           3.6T
+nvme2n1    0 MSI M571 DLP 4TB                           3.6T
+nvme0n1    0 CT1000E100SSD8                           931.5G
+/      overlay overlay rw,relatime,lowerdir=/var/lib/docker/overlay2/l/3BNSHKCBEWR2NCH3IVQU5ILUET:/var/lib/docker/overlay2/l/AJKKZGM25OPN7Q2B2KBMPHNQRX:/var/lib/docker/overlay2/l/3DSCKF42WSFO66OKMTNWONN6W5:/var/lib/docker/overlay2/l/VFH3YJYJHP2OR7FVOTMWAXEONT:/var/lib/docker/overlay2/l/64HXM6IAXN5W3E2M2LMZ2MXIJZ:/var/lib/docker/overlay2/l/SLMMLF3NUOE4BOJPUJIB2B3ONY:/var/lib/docker/overlay2/l/Q73CEPLOFKTC7ZRN7QXFDUJ3DF:/var/lib/docker/overlay2/l/CAL646O3ECPGKJTPZFDIDWA5R4:/var/lib/docker/overlay2/l/MKYWARR3KGDZQHNOP5LVBX3JV3:/var/lib/docker/overlay2/l/MGXYZHBMK2CWRRII7PR7557EQ2:/var/lib/docker/overlay2/l/IRNYIJJ5CGVE37TQ3TIVF2XCCY:/var/lib/docker/overlay2/l/P47KMXQ5TAGR6CJ3PCB5AVMP7X:/var/lib/docker/overlay2/l/7TVAQ67SJP645XR75F2LUACNBO:/var/lib/docker/overlay2/l/ETC7R3N6ULPZOBRHTMY2PSYIDI:/var/lib/docker/overlay2/l/LJ35DSI3BYUO3JST4P4VVPJIDQ:/var/lib/docker/overlay2/l/YNLCUCQT7O4JTKKZLBYR75TX5C:/var/lib/docker/overlay2/l/DFITBUGFSDVSQTKLEYPJM5V32M:/var/lib/docker/overlay2/l/NHB6FRNBSGZLZ2DE5P5NOYYJAX:/var/lib/docker/overlay2/l/RKKVIXFKSZ5YPJW52VBMB352UC:/var/lib/docker/overlay2/l/DBTPPB6ZP3GZJCD5HAXRNCBB2M:/var/lib/docker/overlay2/l/JGFBQV54OQJDU4WFLXF2Y3OQLQ:/var/lib/docker/overlay2/l/VX5RZNZJVGI5UWODLD3EMSWEQL:/var/lib/docker/overlay2/l/5YSLOCQZPVAGTFVWDIRH7CNDGZ,upperdir=/var/lib/docker/overlay2/e0293df1266fb6b41ffd47f1d22176cdc9a39def362b36ee57c653d19d9d3f8e/diff,workdir=/var/lib/docker/overlay2/e0293df1266fb6b41ffd47f1d22176cdc9a39def362b36ee57c653d19d9d3f8e/work,nouserxattr
+974f33d1-6374-4524-b607-28d492492205
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 0.754768 s, 1.4 GB/s

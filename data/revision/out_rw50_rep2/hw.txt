@@ -1,0 +1,12 @@
+CPU(s):                                  32
+Model name:                              AMD EPYC 4565P 16-Core Processor
+8
+16000000000
+overlay         100G  109M  100G   1% /
+NAME    ROTA MODEL                                      SIZE
+nvme0n1    0 EXT X200E SSD                            476.9G
+nvme1n1    0 Lexar SSD NM1090 PRO 2TB                   1.9T
+nvme2n1    0 Lexar SSD NM1090 PRO 2TB                   1.9T
+/      overlay overlay rw,relatime,lowerdir=/var/lib/docker/overlay2/l/TRT3CZN7V4GHUP6XNXR3HGERJD:/var/lib/docker/overlay2/l/JF7J2UHYXCJWQ7AY25I576BYLB:/var/lib/docker/overlay2/l/7JREXAOMKMO5R6OF2MIK2CU3NI:/var/lib/docker/overlay2/l/EROXUF3GRKA2L4FAQIT5RERFFC:/var/lib/docker/overlay2/l/4D2WRPYDAZ4O2UFKX7N7TAD2B6:/var/lib/docker/overlay2/l/EUYOAY4H72NYUXKVG6NRTQLTPQ:/var/lib/docker/overlay2/l/LIMWL46FLOOWD3D5FSNC6TCJT2:/var/lib/docker/overlay2/l/B2JTGZC4HOCIVGFIPBWGIVCN5G:/var/lib/docker/overlay2/l/BJFDRFS5XQPY3I6QJ4LBM6PGFC:/var/lib/docker/overlay2/l/7HV5QRN3EHUTLXFPP77NUWYQOD:/var/lib/docker/overlay2/l/MWPFE6KHB6EROKDKAXNR7M4KYT:/var/lib/docker/overlay2/l/D72AM2GIR5FMOCE3AIZPQMILEP:/var/lib/docker/overlay2/l/7UBLI62BDFG3ROHD2CIMF6UAPN:/var/lib/docker/overlay2/l/UZKGJOVNMFT3AZPQA2WFKNFL5L:/var/lib/docker/overlay2/l/SJUVPFSORGDGAQQTYXV2IHSA42:/var/lib/docker/overlay2/l/A3HAFH7C3AKUO53FSK4O4AG3AA:/var/lib/docker/overlay2/l/TUNSS3CKQD33S6SWBKQ4SMZMBB:/var/lib/docker/overlay2/l/JQMYXBZYXA5QMGALQ6UWDZCFYA:/var/lib/docker/overlay2/l/JD6SXYFDI3XM5QEGSHSL6C7624:/var/lib/docker/overlay2/l/ZRLPU6UA4OZE6FEMAZ65UIORAU:/var/lib/docker/overlay2/l/QGYN5FZ7XJ66JQC3MLCVJZZG3T:/var/lib/docker/overlay2/l/VD3ZZADZKRFLCFMQFUQ3TU7DOD:/var/lib/docker/overlay2/l/H33OZST7KUQ7BG2TQJE2O3MXHV,upperdir=/var/lib/docker/overlay2/d7324513e342fac5231250fcfc5e7ef2c1b39d47ed51730f568f23e642ec1f9f/diff,workdir=/var/lib/docker/overlay2/d7324513e342fac5231250fcfc5e7ef2c1b39d47ed51730f568f23e642ec1f9f/work,nouserxattr
+fb18466b-4bac-4e80-9750-e28e57568d35
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 3.81355 s, 282 MB/s

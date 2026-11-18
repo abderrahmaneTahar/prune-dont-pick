@@ -1,0 +1,9 @@
+06:46 bg4_slow36_wb256MB readrandomwriterandom :      74.479 micros/op 214820 ops/sec 1800.075 seconds 386692984 operations; ( reads:21745800 wri
+07:16 bg4_slow36_wb32MB readrandomwriterandom :      77.782 micros/op 205695 ops/sec 1800.115 seconds 370275984 operations; ( reads:20807100 wri
+07:46 bg1_slow36_wb32MB readrandomwriterandom :      79.413 micros/op 201473 ops/sec 1800.084 seconds 362669984 operations; ( reads:20408400 wri
+08:16 bg4_slow8_wb256MB readrandomwriterandom :      74.430 micros/op 214963 ops/sec 1800.078 seconds 386951984 operations; ( reads:21773700 wri
+08:46 bg4_slow8_wb32MB readrandomwriterandom :      80.039 micros/op 199897 ops/sec 1800.083 seconds 359831984 operations; ( reads:20232900 wri
+09:16 bg1_slow8_wb32MB readrandomwriterandom :      82.589 micros/op 193725 ops/sec 1800.100 seconds 348725984 operations; ( reads:19611900 wri
+09:46 bg1_slow36_wb256MB readrandomwriterandom :      76.067 micros/op 210319 ops/sec 1800.353 seconds 378648984 operations; ( reads:21309300 wri
+10:16 bg1_slow8_wb256MB readrandomwriterandom :      78.906 micros/op 202769 ops/sec 1800.071 seconds 364999984 operations; ( reads:20524500 wri
+ALLDONE

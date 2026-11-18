@@ -1,0 +1,11 @@
+CPU(s):                                  128
+Model name:                              AMD EPYC 9575F 64-Core Processor
+8
+16000000000
+overlay         100G  109M  100G   1% /
+NAME    ROTA MODEL                                     SIZE
+nvme1n1    0 Lexar SSD NM1090 PRO 4TB                  3.7T
+nvme0n1    0 CT4000T700SSD5                            3.6T
+/      overlay overlay rw,relatime,lowerdir=/var/lib/docker/overlay2/l/SISDPE453N2NDNOQ7QVU4XILCL:/var/lib/docker/overlay2/l/NJ2XWEBVFQZBU7K7JUYGMS7N7Y:/var/lib/docker/overlay2/l/5FWGUUTZ7DY24D32HXAMW23TYY:/var/lib/docker/overlay2/l/SP3G7KLKLWGO3BLAR3KWYACKPB:/var/lib/docker/overlay2/l/RNKJN233TJN3D4IHK3QMCX42VG:/var/lib/docker/overlay2/l/PDWX5MEH2E5BFRTXWIDUC5FZKF:/var/lib/docker/overlay2/l/OWWULFMBRXAQ3EEZT3Z56XWW5D:/var/lib/docker/overlay2/l/OA44PSENGG652QXBEKODLP3Q5F:/var/lib/docker/overlay2/l/7O3RZ6LOT7BJ4K5SMGUDZU77Q7:/var/lib/docker/overlay2/l/GGVDFTSNRYC77R4Q2233KQYLFE:/var/lib/docker/overlay2/l/5VXRT3Q7O5GOOU7LN43AFWCFOP:/var/lib/docker/overlay2/l/EAYHAGWLHC7GW6BGBIVDOX3R7C:/var/lib/docker/overlay2/l/EPXSGXJMPBC7TTJCPBQNP45S34:/var/lib/docker/overlay2/l/35ATB44YVETQAS75MU46WP3O3H:/var/lib/docker/overlay2/l/SH5WS6WEB3AQXMCMYVXZT6WETZ:/var/lib/docker/overlay2/l/TLP6PPUH5F7FHM5L2KII7LSX55:/var/lib/docker/overlay2/l/FF2WTGXBR6HUZEGYQYHY7ERV7E:/var/lib/docker/overlay2/l/ZPKXL3EGQCNAUSTSU26ZLM3PE5:/var/lib/docker/overlay2/l/VQ52A7Y7IOMZHYE4WGNGR5DVZR:/var/lib/docker/overlay2/l/SFAZZNUVDFMJGQKB7VZONZSOCR:/var/lib/docker/overlay2/l/EQ6DSGDRGOZJVUT5R2TFXSM3T3:/var/lib/docker/overlay2/l/2NPI5ZHJT5RBEWNBZGCJXI4FZU:/var/lib/docker/overlay2/l/JZ26WI2Z2M62GR4QAF2TDRJBRH,upperdir=/var/lib/docker/overlay2/f1f100cdfdc29df954bc34df355f1fe2fc696ff389f1211c741cbe3ec5923bec/diff,workdir=/var/lib/docker/overlay2/f1f100cdfdc29df954bc34df355f1fe2fc696ff389f1211c741cbe3ec5923bec/work,nouserxattr
+139ce8a6-b3b8-48b3-af89-0045fb8d1be0
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 1.69581 s, 633 MB/s

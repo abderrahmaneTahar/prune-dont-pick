@@ -1,0 +1,18 @@
+CPU(s):                                  32
+Model name:                              AMD EPYC 4564P 16-Core Processor
+8
+16000000000
+overlay         120G  109M  120G   1% /
+NAME    ROTA MODEL                                      SIZE
+loop0      0                                           63.8M
+loop1      0                                           63.8M
+loop3      0                                             74M
+loop4      0                                           32.5M
+loop5      0                                          115.2M
+loop6      0                                             74M
+loop7      0                                           44.7M
+loop8      0                                          116.6M
+nvme0n1    0 Samsung SSD 990 EVO Plus 2TB               1.8T
+/      overlay overlay rw,relatime,lowerdir=/var/lib/docker/overlay2/l/SLX6PRTIW522JP6EP57MBIUMFM:/var/lib/docker/overlay2/l/XJ4VPUUDEXNLJR3W2K4ZQUXQAX:/var/lib/docker/overlay2/l/HFGF4BUYSHIRZN2PD6RUT43LBP:/var/lib/docker/overlay2/l/MFSHXVZRFTD5XQBWYQ6WEHLTIN:/var/lib/docker/overlay2/l/RK26GB7TQRN2RZJMQEGMQOQV2F:/var/lib/docker/overlay2/l/GJBTHW2AIY3ZAH3XOXGASQLQG4:/var/lib/docker/overlay2/l/57WT6ACNDIZ6YZRVTQQEFFEOHY:/var/lib/docker/overlay2/l/PDDRZIZX3XZKDKFN5UNX2JCIIL:/var/lib/docker/overlay2/l/EKWY3BTX7X5TIIXI27477YJ2IU:/var/lib/docker/overlay2/l/4AQQUIY67KMPXVQE6B4YQFABFO:/var/lib/docker/overlay2/l/WFYQUZAIY7KHVIWAAD7K4JNQPU:/var/lib/docker/overlay2/l/GBK3MEVBLGUH3P6EF5NCMU2UEF:/var/lib/docker/overlay2/l/RL5FKYSHUWWC5MH2L7JL7WSRQC:/var/lib/docker/overlay2/l/745CHPNCVQDY7E4VGSJ3TCCTBX:/var/lib/docker/overlay2/l/WHFUQM55LG5MSN7YLGNOKLEHZ3:/var/lib/docker/overlay2/l/V4IILBLVCNE7FKLGZBWDNMPTFY:/var/lib/docker/overlay2/l/TXRIGNHGXXY2KJJDUPCF2ZOC32:/var/lib/docker/overlay2/l/LLXM7SFN7TMW4UJSUWWEADJWDK:/var/lib/docker/overlay2/l/M7GOTDOTP5VC5TT3BH26X44FHU:/var/lib/docker/overlay2/l/GWGX7DJ4ARPBVHPK6NL5ONOFFD:/var/lib/docker/overlay2/l/XTZ2H467MIVW7L3J4BXTI6EAIN:/var/lib/docker/overlay2/l/VWKRGUX3ZGF63BINSBSWDIUL3D:/var/lib/docker/overlay2/l/JKD2IOGZ5IFBJLQWDEA3SYZBS2,upperdir=/var/lib/docker/overlay2/6b097dec85543c441af0a0a9fb0801511ebd2f2a6c773bf8b60e7f814fe84537/diff,workdir=/var/lib/docker/overlay2/6b097dec85543c441af0a0a9fb0801511ebd2f2a6c773bf8b60e7f814fe84537/work,nouserxattr
+b5723eeb-a393-42ef-9d38-fd8cc1009a60
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 0.459946 s, 2.3 GB/s
